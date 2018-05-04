@@ -68,10 +68,10 @@ Vector Vector::Rotate(double angle) {
 	return c;
 }
 
-void Vector::dessine_image(NativeBitmap nb) const {
-    putNativeBitmap(coord[0], coor[1], nb);
+void Vector::dessine_image(Imagine::NativeBitmap nb) const {
+    putNativeBitmap(coord[0], coord[1], nb);
 }
 
 void Vector::efface_image(int nb_w, int nb_h) const {
-    fillRect(coord[0], coor[1] ,nb_w,nb_h,WHITE);
+    fillRect(coord[0], coord[1] ,nb_w,nb_h,WHITE);
 }

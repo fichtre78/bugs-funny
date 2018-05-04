@@ -1,10 +1,6 @@
 #pragma once
 
-#include <Imagine/Graphics.h>
-using namespace Imagine;
-
 #include "vector.h"
-#include "arme.h"
 
 class Ennemi
 {
@@ -17,7 +13,7 @@ class Ennemi
     Imagine::NativeBitmap m_skin;
 
     //Méthodes
-    void recevoir_degat(Arme);
+    void recevoir_degat(int nb_degat);
     void avancer();
     void death();
 };

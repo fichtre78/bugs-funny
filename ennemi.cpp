@@ -1,7 +1,6 @@
-#include "tools.h"
+// mettre les memes includes que dans le .h ?
+#include "ennemi.h"
 
-#include <Imagine/Graphics.h>
-using namespace Imagine;
 
 
 

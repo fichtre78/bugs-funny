@@ -1,5 +1,11 @@
 #pragma once
 
+#include <cmath>
+using namespace std;
+
+#include "Imagine/Images.h"
+using namespace Imagine;
+
 const int DIM = 2;
 
 class Vector {
@@ -29,6 +35,6 @@ public:
 	Vector Rotate(double angle);
 
     //Gestion de l'affichage d'image au niveau du vecteur
-    void dessine_image(NativeBitmap nb, int nb_w, int nb_h, int zoom) const;
-    void efface_image(int nb_w, int nb_h, int zoom) const;
+    void dessine_image(Imagine::NativeBitmap nb) const;
+    void efface_image(int nb_w, int nb_h) const;
 };
