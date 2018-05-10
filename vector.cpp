@@ -1,6 +1,6 @@
 #define _USE_MATH_DEFINES
 
-#include "Vector.h"
+#include "vector.h"
 
 // Dans les fonctions avec un for(), le compilateur croit
 // que ce n'est pas initialise. Ceci supprime le warning.

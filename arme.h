@@ -12,12 +12,11 @@ private:
     double m_degats;
     double m_prix;
 
-    Vector m_vitesse;
-    Vector m_centre;
+    Vect2 m_vitesse;
+    Vect2 m_centre;
     Imagine::NativeBitmap m_skin;
 
 public:
-
     void attaquer(Ennemi &cible);
 
 };

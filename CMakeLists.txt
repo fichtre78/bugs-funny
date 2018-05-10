@@ -8,6 +8,7 @@ project(BugsFunny)
 add_executable(BugsFunny
         main.cpp
         ennemi.cpp ennemi.h
-        vector.cpp vector.h
-        arme.cpp)
+        arme.cpp
+        case.cpp
+        vect2.h)
 ImagineUseModules(BugsFunny Graphics)
